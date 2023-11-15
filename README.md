@@ -1,6 +1,6 @@
 ## Quick Start Guide:  Finetuning – MI210
 
-### Understanding large language model finetuning
+### Understanding Stable Diffusion model finetuning
 
 Stable Diffusion models can generate images from input prompt by using denoising algorithm. To better understand the architecture of common stable diffusion models, we recommend you read this article (https://huggingface.co/blog/stable_diffusion) from hugging face. Stable diffusion models are implemented in the diffusers library (https://github.com/huggingface/diffusers) from hugging face. For the detailed description of the diffusers and finetuning of stable diffusion models, please refer to this README (https://github.com/huggingface/diffusers/tree/main/examples/text_to_image). Finetuning the pretrained stable diffusion models will change the UNET parameters according to the new dataset.
 
